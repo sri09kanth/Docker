@@ -14,12 +14,7 @@ echo "########################################"
 sudo yum install $PACKAGE -y > /dev/null
 echo
 
-# Start & Enable Service
-echo "########################################"
-echo "Start & Enable HTTPD Service"
-echo "########################################"
-sudo systemctl start $SVC
-sudo systemctl enable $SVC
+
 
 
 # Creating Temp Directory
