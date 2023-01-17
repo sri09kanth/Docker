@@ -20,7 +20,7 @@ echo "Start & Enable HTTPD Service"
 echo "########################################"
 sudo systemctl start $SVC
 sudo systemctl enable $SVC
-echo
+
 
 # Creating Temp Directory
 echo "########################################"
