@@ -17,14 +17,6 @@ echo
 
 
 
-# Creating Temp Directory
-echo "########################################"
-echo "Starting Artifact Deployment"
-echo "########################################"
-mkdir -p $TEMPDIR
-cd $TEMPDIR
-echo
-
 wget $1 > /dev/null
 unzip $2.zip > /dev/null
 sudo cp -r $2/* /var/www/html/
