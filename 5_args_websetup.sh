@@ -12,9 +12,6 @@ echo "########################################"
 sudo yum install $PACKAGE -y > /dev/null
 echo
 
-
-
-
 wget $1 > /dev/null
 unzip $2.zip > /dev/null
 sudo cp -r $2/* /var/www/html/
