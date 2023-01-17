@@ -7,7 +7,7 @@ SVC="httpd"
 #ART_NAME='2098_health'
 TEMPDIR="/tmp/webfiles"
 
-# Installing Dependencies
+
 echo "########################################"
 echo "Installing packages."
 echo "########################################"
